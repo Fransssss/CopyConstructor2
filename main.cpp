@@ -17,7 +17,7 @@ using std::string;
 
 int main()
 {
-    string choice;                                                        // user choice
+    string choice;                                                             // user choice
     cout << endl << "== Copy Constructor Learning ==" << endl;
     cout << "1. Default value" << endl;
     cout << "2. User-input value (copy constr called)" << endl;
@@ -30,15 +30,15 @@ int main()
         if(choice == "1")
         {
             cout << endl;
-            CopCon newObj;                                                //  class object
+            CopCon newObj;                                                     //  class object
             cout << newObj.GetData() << endl;
         }
         else if(choice == "2")
         {
             cout << endl;
-            int userInput;                                               // digit from user input
-            CopCon stObj;                                                // first class object
-            cout << "Input a number: ";
+            int userInput;                                                     // digit from user input
+            CopCon stObj;                                                      // first class object
+            cout << "Input a number: ";   
             cin >> userInput;
             cout << endl;
             stObj.SetData(userInput);
