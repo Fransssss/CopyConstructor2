@@ -1,4 +1,5 @@
 // Fransiskus Agapa
+// Declaration of CopCon class
 
 #ifndef COPYCONSTRUCTOR2_COPCON_H
 #define COPYCONSTRUCTOR2_COPCON_H
